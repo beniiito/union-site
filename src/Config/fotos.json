@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "title": "Respirar Vida",
+        "descripcion": "Uno de los cosas mas bonitas de visitar los pueblos, respirar verde.",
+        "img": "/campo.jpeg"
+    },
+    {
+        "id": 1,
+        "title": "Gigantes de Acero",
+        "descripcion": "Los Gigantes de acero rodeando el pueblo.",
+        "img": "/venta.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Mar es vida",
+        "descripcion": "Cuna de historias increibles.",
+        "img": "/mar3.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "El desastre",
+        "descripcion": "Asi quedo el palacio municipal despues del terremoto del 2017.",
+        "img": "/palacio.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "La simbiosis",
+        "descripcion": "El equilibrio entre el 'Desarrollo' y la tranquilidad.",
+        "img": "/molino.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Tranquilidad",
+        "descripcion": "La tranquilidad hecha foto.",
+        "img": "/mar.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Otro atardecer",
+        "descripcion": "Atardeceres unicos.",
+        "img": "/mar2.jpeg"
+    },
+    {
+        "id": 7,
+        "title": "Toritos",
+        "descripcion": "Tradiciones que perduran por años.",
+        "img": "/torito.jpeg"
+    }
+]
