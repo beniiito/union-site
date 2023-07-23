@@ -1,0 +1,1 @@
+import"./hoisted.1f46bfd9.js";const r=document.querySelectorAll(".count"),s=200;r.forEach(t=>{const o=()=>{const e=parseInt(+t.getAttribute("data-target")),n=parseInt(+t.innerText),c=Math.trunc(e/s);console.log(c),n<e?(t.innerText=n+c,setTimeout(o,1)):n.innerText=e};o()});
