@@ -6,11 +6,19 @@ module.exports = {
 		"./node_modules/tw-elements/dist/js/**/*.js"
 	],
 	theme: {
-		extend: {},
-		
-		
+		extend: {
+			fontFamily: {
+				'sans': ['Helvetica', 'Arial', 'sans-serif'],
+				'serif': ['Georgia', 'Cambria'],
+				'mono': ['SFMono-Regular', 'Menlo'],
+				'display': ['Oswald'],
+				'body': ['Open Sans'],
+			}
+		},
+
+
 	},
 	plugins: [require("tw-elements/dist/plugin.cjs")],
-	
-	
+
+
 }
