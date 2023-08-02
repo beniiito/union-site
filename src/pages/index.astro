@@ -13,23 +13,20 @@ import Habitantes from "../components/landing/Habitantes.astro";
 <Layout title="Home">
   <Hero />
 <div  class="">
-  <section class="mb-1">
+  <section class="mb-10 ">
     <div
-      class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] bg-[url('/mar.jpeg')] h-[563px]">
+      class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] bg-[url('/entrada.jpg')] h-[563px]">
       <div
-        class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.65)] bg-fixed">
-        <div class="flex h-full items-center ">
-          <div class="px-6 text-center md:text-xl md:mt-14 text-white md:px-12">
-            <p class="mt-5">
-              "Unión Hidalgo, Oaxaca: Tierra de las Muchachas Bonitas"
-            </p>
-              <p class="font-light text-justify mt-5 mb-5 text-neutral-500 dark:text-neutral-300 ">
-                Unión Hidalgo es un pintoresco municipio ubicado en el estado de Oaxaca, México, en la región del Istmo de Tehuantepec. Rodeado de belleza natural y cultura, el pueblo destaca por su encanto único. Sus tradiciones arraigadas, festivales coloridos y exquisita gastronomía reflejan la diversidad cultural de la región. Situado estratégicamente en el Istmo, Unión Hidalgo ofrece una experiencia auténtica y enriquecedora para quienes lo visitan.
-              </p>
-            </h2>
-          <Habitantes/>
-          </div>
-        </div>
+        class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.65)] bg-fixed ">
+      <div class="container mx-auto">
+        <p class="mt-6 text-center md:text-2xl text-white">
+          "Unión Hidalgo, Oaxaca: Tierra de las Muchachas Bonitas"
+        </p>
+          <p class="text-justify md:mb-1 text-neutral-500 dark:text-neutral-300 p-3 md:text-2xl">
+            Unión Hidalgo es un pintoresco municipio ubicado en el estado de Oaxaca, México, en la región del Istmo de Tehuantepec. Rodeado de belleza natural y cultura, el pueblo destaca por su encanto único. Sus tradiciones arraigadas, festivales coloridos y exquisita gastronomía reflejan la diversidad cultural de la región. Situado estratégicamente en el Istmo, Unión Hidalgo ofrece una experiencia auténtica y enriquecedora para quienes lo visitan.
+          </p>
+      <Habitantes/>
+      </div>
       </div>
     </div>
   </section>
@@ -39,9 +36,14 @@ import Habitantes from "../components/landing/Habitantes.astro";
 
   <!-- Container for demo purpose -->
 <div class="container mt-6 mx-auto md:px-6">
+  <!-- <hr
+  class="my-6 h-0.5 border-t-0 bg-black opacity-100 dark:opacity-50" /> -->
+
+  <hr
+  class="my-6 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
   <!-- Section: Design Block -->
   <section class="mb-6 md:mb-12 text-center lg:text-left">
-    <h2 class="mb-12 text-center text-3xl font-bold">
+    <h2 class="mb-12 text-center text-3xl md:font-bold">
       Organiza tu visita
     </h2>
 
@@ -81,7 +83,7 @@ import Habitantes from "../components/landing/Habitantes.astro";
           <p class="mb-6 text-white">
             Dale un vistazo a las festividades que se celebran en el pueblo, conoce las fechas en las cuales se realizan para poder organizar de mejor manera tu visita.
           </p>
-          <a href="/costumbres" data-te-ripple-init data-te-ripple-color="light"
+          <a href="/honores" data-te-ripple-init data-te-ripple-color="light"
             class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver mas</a>
         </div>
       </div>
@@ -107,13 +109,39 @@ import Habitantes from "../components/landing/Habitantes.astro";
       </div>
       
     </div>
+
+    <hr
+    class="md:my-6 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+
+    <div class="py-5">
+      <div class="grid items-center lg:grid-cols-2 lg:gap-x-12">
+        <div class="md:mb-16 lg:mb-0">
+          <h2 class="my-6 text-5xl font-bold leading-tight tracking-tight">
+            Estas listo <br />
+            <span class="text-primary dark:text-primary-400">para divertirte?</span>
+          </h2>
+          <a class="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#14a44d] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(20,164,77,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] md:mr-2 md:mb-0"
+            data-te-ripple-init data-te-ripple-color="light" href="/fiestas" role="button">Leer Más</a>
+        
+        </div>
+
+        <div class="mb-1 lg:mb-0">
+          <img src="god.jpeg"
+            class="w-full rounded-lg shadow-lg dark:shadow-black/20" alt="" />
+        </div>
+      </div>
+    </div>
+
   </section>
-  <!-- Section: Design Block -->
+
 </div>
-<!-- Container for demo purpose -->
+
+
 
 
 <div class="container mx-auto md:px-6 md:mb-12">
+  <hr
+  class="my-6 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
   <p class="text-2xl md:text-5xl text-center mb-6">¿Como llegar?</p>
   <Maps />
 </div>
