@@ -5,12 +5,14 @@ import Layout from "../layouts/Layout.astro";
 import Hero from "../components/landing/Hero.astro";
 import Foter from "../components/landing/Foter.astro";
 import Timeline from '../components/landing/Timeline.astro';
+import Share from "../components/landing/Share.astro";
 ---
 
 <Layout title="Historia de union Hidalgo">
   <Hero />
   <div class="container mx-auto md:px-12 md:mb-16 md:mt-16">
-    <Timeline></Timeline>  
+    <Timeline></Timeline>
+   <Share conca="historia"/>
   </div>
   <Foter />
 </Layout>

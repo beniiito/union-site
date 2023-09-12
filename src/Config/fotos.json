@@ -31,9 +31,9 @@
     },
     {
         "id": 5,
-        "title": "Tranquilidad",
-        "descripcion": "La tranquilidad hecha foto.",
-        "img": "/mar.jpeg"
+        "title": "Toritos",
+        "descripcion": "Tradiciones que perduran por años.",
+        "img": "/torito.jpeg"
     },
     {
         "id": 6,
@@ -43,8 +43,8 @@
     },
     {
         "id": 7,
-        "title": "Toritos",
-        "descripcion": "Tradiciones que perduran por años.",
-        "img": "/torito.jpeg"
+        "title": "Tranquilidad",
+        "descripcion": "La tranquilidad hecha foto.",
+        "img": "/mar.jpeg"
     }
 ]
